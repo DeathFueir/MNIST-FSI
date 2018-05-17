@@ -48,7 +48,7 @@ x = tf.placeholder("float", [None, 784])  # samples
 y_ = tf.placeholder("float", [None, 10])  # labels
 
 W1 = tf.Variable(np.float32(np.random.rand(784, 15)) * 0.1)
-b1 = tf.Variable(np.float32(np.random.rand(25)) * 0.1)
+b1 = tf.Variable(np.float32(np.random.rand(15)) * 0.1)
 
 W2 = tf.Variable(np.float32(np.random.rand(15, 10)) * 0.1)
 b2 = tf.Variable(np.float32(np.random.rand(10)) * 0.1)
